@@ -1,0 +1,36 @@
+# Core scientific Python
+numpy
+pandas
+scipy
+scikit-learn
+
+# Gradient boosting
+xgboost
+lightgbm
+catboost
+
+# Deep learning
+torch
+
+# Visualisation
+matplotlib
+
+# Geospatial processing
+geopandas
+shapely
+pyproj
+rasterio
+
+# Utilities
+psutil
+joblib
+
+# earthengine-api
+# pandas
+# numpy
+# scikit-learn
+# matplotlib
+# xgboost
+# lightgbm
+# catboost
+# torch

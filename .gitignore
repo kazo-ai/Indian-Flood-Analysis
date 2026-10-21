@@ -1,0 +1,90 @@
+cd ~/Downloads/flood_susceptibility
+
+cat > .gitignore <<'EOF'
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Raw raster data: keep locally, do not push to GitHub
+data/raw/predictor_rasters/*.tif
+data/raw/predictor_rasters/*.tiff
+
+# Old dataset backups
+data/raw/backup_before_river_fix/
+
+# Large generated predictions
+outputs/**/oof_predictions*.csv
+outputs/oof_predictions*.csv
+outputs/predictions/*.csv
+
+# Old experiment backups
+outputs/backup_before_event_batch/
+outputs/backup_before_event_cv/
+outputs/pre_river_fix_backup_20261021/
+
+# Trained model artifacts
+outputs/models/*.joblib
+
+# Generated susceptibility rasters
+outputs/susceptibility/*.tif
+outputs/susceptibility/*.tiff
+EOF
+# Ignore all generated model artifacts
+outputs/models/
+outputs/susceptibility/
+
+# Keep small research summary and leaderboard CSVs tracked
+
+# Local backups and temporary experiment files
+app.py.backup
+app.py.before_contrast_fix
+README_backup.md
+backups/
+catboost_info/
+
+# Large local research artifacts
+data/raw/predictor_rasters/
+data/raw/backup_before_river_fix/
+outputs/backup_before_event_batch/
+outputs/backup_before_event_cv/
+outputs/pre_river_fix_backup_20261021/
+outputs/models/
+outputs/susceptibility/
+outputs/predictions/
+outputs/**/oof_predictions*.csv
+outputs/oof_predictions*.csv
+
+# macOS
+.DS_Store
