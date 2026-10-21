@@ -1,0 +1,6 @@
+kind,model,AUC_mean,AUC_std,F1_mean,F1_std,IoU_mean,IoU_std,Precision_mean,Precision_std,Recall_mean,Recall_std,Accuracy_mean,Accuracy_std
+hybrid,H2 Soft-Voting (RF+XGB+MLP),0.912,0.006,0.835,0.004,0.717,0.006,0.799,0.01,0.875,0.02,0.828,0.001
+hybrid,H1 Stacking (RF+XGB+LGBM -> LR),0.911,0.006,0.829,0.001,0.708,0.001,0.813,0.01,0.846,0.011,0.826,0.002
+baseline,RF,0.91,0.006,0.838,0.004,0.721,0.005,0.799,0.008,0.881,0.007,0.83,0.004
+hybrid,H6 RF-feature-selection + LGBM,0.901,0.007,0.819,0.009,0.694,0.013,0.799,0.012,0.84,0.027,0.814,0.007
+baseline,LR,0.892,0.007,0.822,0.005,0.698,0.007,0.758,0.006,0.897,0.021,0.806,0.002

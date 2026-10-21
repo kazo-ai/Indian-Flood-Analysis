@@ -1,0 +1,21 @@
+Raw rows: 32000 from 4 files
+
+No missing values
+
+Dropped rows with missing values: 0
+
+Dropped rows with impossible values: 0
+
+Dropped duplicate points: 0
+
+Rows per event:
+                n  flooded  flooded_share
+event                                    
+assam_2020   8000     4000            0.5
+assam_2022   8000     4000            0.5
+bihar_2020   8000     4000            0.5
+kerala_2018  8000     4000            0.5
+
+Final rows: 32000, events: 4, spatial blocks: 121
+
+NOTE: rainfall (CHIRPS ~5 km) is almost constant inside an event cell, so use spatial/event CV, never random CV.

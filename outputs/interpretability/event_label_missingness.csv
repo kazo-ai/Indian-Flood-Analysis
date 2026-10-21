@@ -1,0 +1,9 @@
+event,flooded,rows,label_fraction_within_event,elevation_missing_percent,slope_missing_percent,curvature_missing_percent,twi_missing_percent,hand_missing_percent,dist_river_missing_percent,rain_event_total_missing_percent,rain_max_1day_missing_percent,rain_max_3day_missing_percent,rain_antecedent_30d_missing_percent,ndvi_pre_missing_percent,clay_missing_percent,sand_missing_percent,lc_bare_missing_percent,lc_built_missing_percent,lc_crop_missing_percent,lc_grass_missing_percent,lc_shrub_missing_percent,lc_tree_missing_percent,lc_water_missing_percent,lc_wetland_missing_percent
+assam_2020,0,4000,0.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+assam_2020,1,4000,0.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+assam_2022,0,4000,0.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+assam_2022,1,4000,0.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+bihar_2020,0,4000,0.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+bihar_2020,1,4000,0.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+kerala_2018,0,4000,0.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+kerala_2018,1,4000,0.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
